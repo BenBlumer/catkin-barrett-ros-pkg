@@ -46,7 +46,8 @@ included folders into these.
 -I had to link to eigen2, xenomai, libbarrett, and libgsl in
 wam_node/CMakeLists. You'll need to edit the CMakeFiles to point to your local
 copies:
---search wam_node/CMakeLists for "xenomai", "eigen2", and "libbarrett"
+--search wam_node/CMakeLists for "xenomai", "eigen2", and "libbarrett". The
+  libbarrett path must be changed in two places.
 --Change these paths to wherever these directories are on your computer.
 
 
