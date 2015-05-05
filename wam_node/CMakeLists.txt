@@ -172,10 +172,10 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(wam_node src/wam_node.cpp)
 # Added Barrett.
-target_link_libraries(wam_node ${catkin_LIBRARIES} barrett gsl)
+target_link_libraries(wam_node ${catkin_LIBRARIES} /home/benblumer/libbarrett-1.2.1/src/libbarrett.so gsl)
 # Add the location of your Barrett lib.
 link_directories (
-/mnt/sda1/homes/benblumer/charm/trunk/third-party/libbarrett-1.2.1/src
+home/benblumer/libbarrett-1.2.1/src
 )
 
 
