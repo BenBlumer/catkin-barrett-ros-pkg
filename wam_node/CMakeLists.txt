@@ -100,6 +100,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 	/usr/include/eigen2/
 	/usr/include/xenomai/
+	/home/benblumer/libbarrett-1.2.1/include
 )
 
 ## Declare a cpp library
